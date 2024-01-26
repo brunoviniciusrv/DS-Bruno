@@ -7,12 +7,12 @@
 .MaiorR {
     display: inline-flex;
     flex-wrap: wrap;
+    margin-bottom: 220px;
 }
 
 .DadosdaCompra {
-    background-color: #4F4F4F;
     margin-top: 20px;
-    /*margin-bottom: 250px;*/
+    margin-bottom: 30px;
     display: inline-flex;
     width: 640px;
     flex-wrap: wrap;
@@ -69,8 +69,10 @@
 }
 
 .DetalhesdaCompra{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     margin-top: 20px;
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -118,11 +120,36 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    word-wrap: break-word;
+}
+
+.valor{
+    margin-top: 15px;
+    display: inline-flex;
+}
+
+.valor h2{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.valor h3{
+    margin-left: 50px;
+    color: #000;
+    text-align: right;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .botaoF{
     margin-top: 100px;
-    /*margin-bottom: 255px;*/
     width: 342.54px;
     height: 67.5px;
     flex-shrink: 0;
@@ -137,3 +164,39 @@
     font-weight: 500;
     line-height: normal;
 }
+
+/* Adicione no arquivo Style.css */
+.popup {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(16, 32, 150);
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.popup-content {
+    text-align: center;
+    color: #0a223b;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.close {
+    color: rgba(212,0,5,0.84);
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+

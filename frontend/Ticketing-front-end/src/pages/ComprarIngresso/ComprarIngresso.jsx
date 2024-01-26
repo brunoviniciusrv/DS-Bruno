@@ -2,9 +2,19 @@ import "./Style.css"
 import { Header, Footer} from '../../components';
 import { FaLocationDot } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
-import React from "react";
+import React, { useState } from "react";
 
 export default function ComprarIngresso() {
+
+    const [isPopupVisible, setPopupVisible] = useState(false);
+
+    const exibirPopup = () => {
+        setPopupVisible(true);
+    };
+
+    const fecharPopup = () => {
+        setPopupVisible(false);
+    };
 
     function mascaraCartaoCredito(e) {
         var i = e.target;
@@ -93,9 +103,23 @@ export default function ComprarIngresso() {
                             <h1><FaCalendarAlt className="icon mr-2" />Data Evento</h1>
                         </div>
                     </div>
-                    <button className="botaoF">Finalizar Compra</button>
+                    <div className="valor">
+                        <h2>Preço do Ingresso</h2>
+                        <h3>R$ 00,00</h3>
+                    </div>
+                    <button className="botaoF" onClick={exibirPopup}>Finalizar Compra</button>
                 </div>
             </div>
+            {isPopupVisible && (
+                <div className="popup">
+                    <div className="popup-content">
+            <span className="close" onClick={fecharPopup}>
+              &times;
+            </span>
+                        <p>Preencha todos os campos!</p>
+                    </div>
+                </div>
+            )}
             <Footer />
         </div>
     )

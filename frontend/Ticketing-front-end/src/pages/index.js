@@ -6,4 +6,6 @@ import Login from "./Login/Login"
 import ComprarIngresso from "./ComprarIngresso/ComprarIngresso"
 import Teste from "./Teste/Teste"
 import Register from "./Register/Register"
-export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste, Register}
+import Shows from "./Shows/Shows";
+import Painel from "./Painel/Painel";
+export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste, Register, Shows, Painel}

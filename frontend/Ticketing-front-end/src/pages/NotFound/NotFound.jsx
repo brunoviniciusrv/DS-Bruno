@@ -1,10 +1,11 @@
 import { Header, Footer} from '../../components';
+import "./NotF.css"
 
 export default function NotFound() {
     return(
         <div>
             <Header/>
-            <h2 className='flex m-24 justify-center'>Página Não Encontrada!</h2>
+            <h2 className='Notexto flex m-72 justify-center'>Página Não Encontrada!</h2>
             <Footer/>
         </div>
     )
