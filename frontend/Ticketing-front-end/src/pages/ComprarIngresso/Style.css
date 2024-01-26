@@ -1,22 +1,139 @@
-
-.nav2{
-    flex: 1 1 100vw;
-    padding: 2px 1128px 1px 58px;
-    align-items: center;
-    gap: 8px;
-    border: 1px solid #D9D9D9;
-}
-
-.dadosCompra{
-    width: 798px;
-    height: 397px;
-    flex-shrink: 0;
-    background-color: #4F4F4F;
-}
-
-.enderecoCompra{
+.PageCompra {
     display: flex;
-    margin: 3px;
-    flex: 1 1 500px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.MaiorR {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.DadosdaCompra {
     background-color: #4F4F4F;
+    margin-top: 20px;
+    /*margin-bottom: 250px;*/
+    display: inline-flex;
+    width: 640px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.DadosdaCompra h1{
+    color: #1B1B25;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.DadosdaCompra label {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.DadosdaCompra input {
+    border-radius: 5px;
+    border: 2px solid #1B1B25;
+    background: #FFF;
+    height: 30px;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px; /* Adicionei margem inferior para separar os campos */
+}
+
+.DT input{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #1B1B25;
+    background: #FFF;
+    height: 30px;
+    width: 150px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.CVV input{
+    border-radius: 5px;
+    border: 2px solid #1B1B25;
+    background: #FFF;
+    height: 30px;
+    width: 50px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.DetalhesdaCompra{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.DetalhesdaCompra label{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infoCompra{
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.imgC{
+    display: flex;
+    width: 226px;
+    height: 98px;
+    border-radius: 1.292px;
+    border: 0.484px solid #060609;
+}
+
+.textoC{
+    display: flex;
+    flex-direction: column;
+}
+
+.textoC label{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textoC h1{
+    color: #1B1B25;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botaoF{
+    margin-top: 100px;
+    /*margin-bottom: 255px;*/
+    width: 342.54px;
+    height: 67.5px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #112557;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

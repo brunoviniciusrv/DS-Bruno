@@ -5,4 +5,5 @@ import VisualizarEvento from "./VisualizarEvento/VisualizarEvento"
 import Login from "./Login/Login"
 import ComprarIngresso from "./ComprarIngresso/ComprarIngresso"
 import Teste from "./Teste/Teste"
-export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste}
+import Register from "./Register/Register"
+export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste, Register}
