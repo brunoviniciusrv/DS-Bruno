@@ -8,4 +8,5 @@ import Teste from "./Teste/Teste"
 import Register from "./Register/Register"
 import Shows from "./Shows/Shows";
 import Painel from "./Painel/Painel";
-export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste, Register, Shows, Painel}
+import Perfil from "./Perfil/Perfil";
+export {Home, NotFound, RegistrarEvento, VisualizarEvento, Login, ComprarIngresso, Teste, Register, Shows, Painel, Perfil}

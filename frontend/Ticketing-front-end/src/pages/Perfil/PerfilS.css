@@ -1,0 +1,35 @@
+.TelaUtil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.ingresso{
+    display: inline-flex;
+    border: 2px solid #BDBDBD;;
+}
+
+.ingresso1 {
+    display: flex;
+    width: 285px;
+    height: 288px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 1px solid #BDBDBD;
+}
+
+.QRcode{
+    display: flex;
+    width: 300px;
+    height: 288px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.UserData{
+
+}
