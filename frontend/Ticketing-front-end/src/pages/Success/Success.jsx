@@ -1,8 +1,5 @@
 import "./Style.css"
 import { Header, Footer } from '../../components';
-import { FaLocationDot } from "react-icons/fa6";
-import { FaCalendarAlt } from "react-icons/fa";
-import { useEffect, useState } from "react";
 
 export default function Success() {
 

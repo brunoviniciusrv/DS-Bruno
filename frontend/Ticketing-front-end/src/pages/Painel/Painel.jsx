@@ -15,7 +15,7 @@ export default function Painel() {
                         <h2>Cadastrar Evento</h2>
                     </div>
                     <div className="CadastrarEvento">
-                        <h1><IoPerson /></h1>
+                        <Link to="/perfil"><h1><IoPerson/></h1></Link>
                         <h2>Meu Perfil</h2>
                     </div>
                 </div>
