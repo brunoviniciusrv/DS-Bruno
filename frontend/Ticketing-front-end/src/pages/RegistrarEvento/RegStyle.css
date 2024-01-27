@@ -1,0 +1,83 @@
+.pagR{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pag01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.pag02{
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #112557;
+    min-height: 400px;
+    max-width: 800px;
+}
+
+.pag03 label{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+}
+
+.pag04{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.pag04 h1{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+}
+
+.t05{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.t05 input, select{
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+}
+
+.bt01{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoR{
+    width: 200px;
+    height: 63px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #003903;
+    backdrop-filter: blur(2px);
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 38.4px */
+}
