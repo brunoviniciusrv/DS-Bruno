@@ -3,12 +3,11 @@ package dominios.api.ticketing.entity;
 import lombok.*;
 import org.bson.types.Binary;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document(collection = "Ticketing")
+@Document(collection = "Evento")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -23,10 +22,8 @@ public class Evento {
     private Integer capacidade;
     private Integer preco;
     private Integer reservasAtuais = 0;
-    private String imagem;
+    private Binary imagem;
     private String duracao;
     private String horario;
-    private TipoEvento tipo;
-    @DBRef
-    private Usuario organizador;
+    private String tipo;
 }
