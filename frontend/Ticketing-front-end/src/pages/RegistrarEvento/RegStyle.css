@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .pag02{
@@ -27,7 +27,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
 }
 
 .pag04{
@@ -41,7 +41,7 @@
     font-size: 24px;
     font-style: italic;
     font-weight: 600;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
 }
 
 .t05{
@@ -62,22 +62,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.botaoR{
-    width: 200px;
-    height: 63px;
-    flex-shrink: 0;
-
-    border-radius: 10px;
-    background: #003903;
-    backdrop-filter: blur(2px);
-
-    color: #FFF;
-    text-align: center;
-    font-family: "Open Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%; /* 38.4px */
 }

@@ -8,11 +8,20 @@ export default function VisualizarEvento() {
 
     const [eventos, setEventos] = useState(
         [{
-            id: 1,
-            nome: 'Teste',
-            preco: '1,99',
-            endereco: 'Rua dos Bobos, nº0 Goiânia - GO',
-            data: new Date(Date.UTC(2024, 3, 22, 19, 30))
+            id: "65b577ce28a51d667ec3c894",
+            nome: "Show do SOAD",
+            descricao: "evento",
+            endereco: "Centro de Eventos",
+            dataInicial: "2024-01-26T22:25:33.000+00:00",
+            dataFinal: "2023-08-18T00:06:59.000+00:00",
+            capacidade: 1000,
+            preco: 100,
+            reservasAtuais: 1,
+            imagem: "",
+            duracao: "3h",
+            horario: "20h",
+            tipo: null,
+            organizador: null
         }]
     );
 
